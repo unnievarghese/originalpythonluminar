@@ -15,4 +15,13 @@ elif(min(listpos)==1):
 elif(min(listpos)!=1):
     result=(min(listpos)-1)
 
-print(result)
+print("the least positve element is: ",result)
+
+print("===============<another method>=========================")
+cnt=1
+for j in range(0,len(list)):
+    if cnt in list:
+        cnt+=1
+    else:
+        print("the least positve element is: ",cnt)
+        break

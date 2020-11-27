@@ -1,10 +1,17 @@
-list=[120,11,12,13,14]
+list=[120,11,12,13,12,14,12,12,12]
+flag=0
 element=int(input("enter the element to search:"))
 for i in list:
     if element==i:
-        print("The elment is present in the list.")
+        flag+=1
         break
-print("The index value is:",end="")
-for i in list:
-    if element==i:
-        print(list.index(i),end=" ")
+    else:
+        flag=0
+if flag!=0:
+    print("The elment is present in the list.")
+    print("The index values are:", end="")
+    for i in range(len(list)):
+        if element == list[i]:
+            print(i, end=" ")
+else:
+    print("element not found")
