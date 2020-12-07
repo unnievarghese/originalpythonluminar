@@ -19,3 +19,5 @@ for cases in list_values:
     for key in dict:
         if dict[key]==cases:
             print(key)
+#lines 16 to 21 can be replaced by using following code
+print(sorted(dict,key=dict.get,reverse=True))
