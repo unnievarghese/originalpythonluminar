@@ -6,6 +6,7 @@ for lines in f:
         dict[word[3]]={'confirmed':word[8],'death': word[7],'cured': word[6]}
     else:
         dict[word[3]] = {'confirmed': word[8],'death': word[7],'cured': word[6]}
+print(dict)
 def find(**arg):
     state=arg.get('name_of_state')
     detail=arg.get('detail')
