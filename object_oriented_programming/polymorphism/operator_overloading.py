@@ -2,7 +2,7 @@ class book:
     def __init__(self,pages):
         self.pages=pages
     def __add__(self, other):                   #this is a spcl builtin method allows us to
-        return book(self.pages + other.pages)    # add the values of two class type like b1 and b2
+        return book(self.pages + other.pages)   #add the values of two class type like b1 and b2
                                                 # another thing to note here is the output is converted to
                                                 #book type(book is class here) because wen return of b1+b2 which
                                                 #will be a book type is added with b3 which is another book type
