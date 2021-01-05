@@ -1,0 +1,46 @@
+sql->show databases;
+list all database
+
+sql-> create database cms;
+
+sql> use cms;
+
+sql> show tables
+
+to create a student tables with roll name course age
+
+sql> create table students( rol varchar(10),name varchae(10),course varchar(20),age int);
+
+sql> desc students;
+
+there are keys like primary key and foreign key
+
+to insert values
+
+sql> insert into students(rol,name,course,age)values('100','ajay','mca',19);
+
+to display all data in table
+select * from students;
+
+to display all names
+select name from students;
+
+to display students in mca:
+select name from students where course='mca';
+
+to change age of student with rol 100
+update students set age=26 where rol='100';
+
+to delete a student
+delete from students where rol='103';
+
+create a new table marks(id,rol,total)
+
+to delete a table
+mysql>drop table marks;
+
+to comapre two tables and display values:
+select total,name from marks,students where marks.rol=students.rol;
+
+another database named company
+create table emp(id int,name varcahr(10),desig varchar(10),sallary int)
