@@ -44,3 +44,21 @@ select total,name from marks,students where marks.rol=students.rol;
 
 another database named company
 create table emp(id int,name varcahr(10),desig varchar(10),sallary int)
+
+display name with total 450
+
+1)find hihgest rating from this movie dataset
+
+select max(rating) from movies;
+
+2)find number of movies with highest rating
+
+select count(movies.name) from movies where movies.rating=(select max(rating) from movies);
+
+3)list movie names in descending order of rating
+
+select movies.name from movies order by rating desc
+
+4)count the number of movies released per year
+
+select year,count(*) as movies_per_year from movies group by year;
