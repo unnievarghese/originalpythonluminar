@@ -1,6 +1,7 @@
 #for passing unlimted number of argumnets
 #the arguments will be passed as tuple
 def add(*num):
+    print(num)
     sum=0
     for i in num:
        sum+=i
