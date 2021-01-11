@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.title('main window')
+label1=Label(root,text='colll.....')
+label2=Label(root,text='cooolllll.....?')
+entry1=Entry(root)
+label1.pack()
+label2.pack()
+entry1.pack()
+root.mainloop()
