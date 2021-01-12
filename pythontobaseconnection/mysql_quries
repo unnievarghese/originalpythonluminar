@@ -62,3 +62,11 @@ select movies.name from movies order by rating desc
 4)count the number of movies released per year
 
 select year,count(*) as movies_per_year from movies group by year;
+
+5)course wise group mca:2,bca:1
+select course,count(rol) from marks group by course;
+
+
+
+7) highest total coursewise
+select course, max(total) from marks group by course;
