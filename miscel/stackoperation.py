@@ -1,23 +1,23 @@
 size=int(input('enter the size of stack'))
 stk=[]
 option=1
-indx=0
+top=0
 def push(element):
-    global indx
-    if indx==size:
+    global top
+    if top>=size:
         print('stack is full')
     else:
-        indx+=1
-        stk.append(element)
+        stk.insert(top, element)
+        top+=1
 def pop():
-    global indx
-    if indx==0:
+    global top
+    if top==0:
         print('stack is empty')
     else:
-        indx-=1
-        stk.pop()
+        print(stk[top - 1], 'popped')
+        top -= 1
 def display():
-    print(stk)
+    print(stk[:top])
 while(option!=0):
     option=int(input(('enter operaiton u want to perfrom 1)push 2)pop 3)display')))
     if option==1:
