@@ -1,0 +1,39 @@
+/*
+tagename or id or class{
+  property1: value1;
+  property2: value2;  
+*/
+
+body{
+    background-color:rgb(52, 235, 180);
+}
+h1{
+  text-align:center;
+}
+#in{
+  background:url('indlogo.jpeg');
+  background-size:35% 100%;
+  background-repeat: no-repeat;
+  background-color: blue;
+}
+#ind{
+  color:blue
+}
+#pl{ color: blue}
+#as{
+  
+  background:url('auslogo.jpeg');
+  background-repeat: no-repeat;
+  background-size:35% 100%;
+  background-color: yellow;
+}
+#aus{color:yellow}
+#al{ color:yellow}
+#en{
+  background:url('englogo.jpg');
+  background-repeat: no-repeat;
+  background-size:35% 100%;
+  background-color: palevioletred;
+}
+#eng{color:palevioletred}
+#el{color:palevioletred}
