@@ -15,6 +15,10 @@ h1{
   background-size:35% 100%;
   background-repeat: no-repeat;
   background-color: blue;
+  width:30%;
+  border-style: solid;
+  border-color:black;
+  border-width: 2px;
 }
 #ind{
   color:blue
@@ -37,3 +41,10 @@ h1{
 }
 #eng{color:palevioletred}
 #el{color:palevioletred}
+
+.global{
+  background:url('englogo.jpg');
+  background-repeat: no-repeat;
+  background-size:35% 100%;
+  background-color: palevioletred;
+}

@@ -1,0 +1,20 @@
+#top{
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    background-color: coral;
+    width:30%;
+    margin-left:10%;
+    margin-top:5%;
+    text-align: center;
+}
+#bottom{
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    background-color: coral;
+    width:30%;
+    margin-top: 30%;
+    margin-left:10%;
+    text-align: center;
+}

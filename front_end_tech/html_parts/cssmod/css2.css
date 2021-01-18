@@ -1,0 +1,10 @@
+.global{
+    color:red;
+}
+.gb{
+    color:blue
+}
+#border{
+    border-style: solid;
+    border-width: 2px;
+}
