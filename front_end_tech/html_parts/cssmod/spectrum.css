@@ -1,0 +1,31 @@
+.global{
+    float: left;
+    width:16%;
+    margin-top: 2%;
+    height: 400px;
+    
+}
+h1{
+    font-family: 'Texturina', serif;
+    text-align: center;
+}
+#first{
+    background-color: rgb(27, 27, 218);
+    margin-left: 8%;
+}
+#second{
+    background-color:chartreuse;
+    margin-left: 10px;
+}
+#third{
+    background-color:orange;
+    margin-left: 10px;
+}
+#fourth{
+    background-color:red;
+    margin-left: 10px;
+}
+#five{
+    background-color: palevioletred;
+    margin-left: 10px;
+}

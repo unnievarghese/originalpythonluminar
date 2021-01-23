@@ -1,0 +1,24 @@
+img{
+    width:20%;
+    margin-left: 40%;
+}
+#sign{
+    text-align: center;
+    background-color: blue;
+}
+#col4{
+    background-color: chartreuse;
+}
+
+#user_in{
+    height:75%;
+ }
+ #pass_in{
+     height:75%;
+  }
+  #but{
+      width: 100%;
+  }
+.col-1{
+    width: 33.3%;
+}
